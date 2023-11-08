@@ -1,0 +1,1 @@
+/* API link to use in function:  https://zenquotes.io/api/quotes/ */

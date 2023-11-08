@@ -2,4 +2,56 @@
     /*temporary font style for the whole page*/
     font-family:'Franklin Gothic Medium';
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+title {
+    display: none;
+}
+
+header {
+    background-color: #222222;
+    width: 100%;
+    height: 50px;
+}
+
+main {
+    padding-top: 40px;
+    background-color: #ffebcd;
+    color: #222222;
+    width: 100%;
+}
+
+/* dark mode(if there's time to code a toggle switch)
+main {
+    background-color: #222222;
+    color: #ffebcd;
+}*/
+
+h1 {
+    min-width: none;
+    max-width: inherit;
+}
+
+button {
+    margin: 30px;
+    padding: 20px;
+    border: 10px groove #002c00;
+    border-radius: 5px;
+    min-width: 150px;
+    max-width: 250px;
+}
+
+
+.inspoCard {
+    border: 3px solid #222222;
+    border-radius: 10px;
+    min-width:200px;
+    max-width: 400px;
+    min-height: 90px;
+    margin-bottom: 40px;
 }
