@@ -13,7 +13,7 @@ function getQuote() {
         inspirationCard.innerHTML = "";
         console.log(data);
         const newQuote = document.createElement("p");
-        newQuote.innerText = data.text/Math.random();
+        newQuote.innerText = data.text;
         inspirationCard.appendChild(newQuote);
     })
     .catch((error) => console.log(error));

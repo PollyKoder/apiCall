@@ -2,11 +2,6 @@
     /*temporary font style for the whole page*/
     font-family:'Franklin Gothic Medium';
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
 }
 
 title {
@@ -24,6 +19,11 @@ main {
     background-color: #ffebcd;
     color: #222222;
     width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* dark mode(if there's time to code a toggle switch)
